@@ -1,0 +1,12 @@
+r = Robot(animate = true)
+function backside(side)
+    if side == Nord 
+        return Sud
+    elseif side == Sud 
+        return Nord
+    elseif side == West
+        return Ost
+    else
+        return West 
+    end
+end
