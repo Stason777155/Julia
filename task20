@@ -10,3 +10,12 @@ function backside(side)
         return West 
     end
 end
+
+function along_rec!(robot, side)
+    if isborder(robot, side) putmarker!(robot)
+    else
+        move!(robot, side)
+        along_rec!(robot, side)
+        move!(robot, backside(side))
+    end
+end
