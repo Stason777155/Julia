@@ -1,3 +1,4 @@
+# isborder = stop_condition()
 function shuttle!(stop_condition::Function, r, side)
     side1 = Ost
     side2 = West
