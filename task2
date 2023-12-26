@@ -8,7 +8,7 @@ end
  
 function task2!(r, Side1, Side2, Side3, Side4)
 	Side1 = Nord
-	Side2 = East
+	Side2 = Ost
 	Side3 = Sud 
 	Side4 = West
     a = 0
