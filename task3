@@ -52,7 +52,7 @@ function task3!(r)
         goandmark!(r, Side1)
         putmarker!(r)
     end
- 
+
     tocorner!(r, Side1, Side2)
  
     while a != 0
