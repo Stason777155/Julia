@@ -1,4 +1,4 @@
-function move_by_steps!(r, Side, Numsteps)
+function move_by_steps(r, Side, Numsteps)
     while Numsteps != 0
         move!(r, Side)
         Numsteps -= 1
