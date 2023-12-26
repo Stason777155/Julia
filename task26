@@ -25,7 +25,7 @@ end
 function go_labirint!(robot, last = 0)
     if last == 0 putmarker!(robot) end
     for i in (Nord, Ost, Sud, West)
-        if inverse(i) != last && can_move!(robot, i)
+        if backside(i) != last && can_move!(robot, i)
             putmarker!(robot)
             go_labirint!(robot, i)
             move!(robot, backside(i))
