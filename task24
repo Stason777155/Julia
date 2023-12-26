@@ -1,6 +1,3 @@
-using HorizonSideRobots
-r = Robot(animate = true)
- 
 function backside(side)
     if side == Nord 
         return Sud
