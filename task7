@@ -5,7 +5,7 @@ function move_by_steps(r, Side, Numsteps)
     end
 end
 function task7!(r, Prohod)
-    i = 2
+    i = 1
     while isborder(r, Prohod)
         if i % 2 == 1
             move_by_steps(r, Ost, i)
