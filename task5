@@ -60,5 +60,3 @@ function task5!(robot)::Nothing
         move!(robot, Ost)
     end
 end
-
-task5!(r)
